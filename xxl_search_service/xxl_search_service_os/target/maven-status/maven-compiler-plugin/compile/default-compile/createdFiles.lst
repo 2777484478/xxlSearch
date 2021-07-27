@@ -1,0 +1,5 @@
+com\digiwin\os\dao\EnvironmentMapper.class
+com\digiwin\OsApplication.class
+com\digiwin\os\servcie\impl\EnvironmentServiceImpl.class
+com\digiwin\os\controller\EnvironmentController.class
+com\digiwin\os\servcie\EnvironmentService.class

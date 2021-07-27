@@ -1,0 +1,18 @@
+# 基本应用信息
+spring:
+  cloud:
+    config:
+      name: os # 与远程仓库中的配置文件的application保持一致，{application}-{profile}.yml
+      profile: test # 远程仓库中的配置文件的profile保持一致
+      label: master # 远程仓库中的版本保持一致
+      uri: http://digiwin:digiwin1982@172.16.1.189:30008
+
+#向Eureka服务中心集群注册服务
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.16.1.189:31315/eureka
+
+
+
+
